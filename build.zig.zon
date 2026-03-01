@@ -1,0 +1,13 @@
+.{
+    .name = .libseat,
+    .version = "0.9.3",
+    .dependencies = .{
+        .libseat_c = .{
+            .url = "https://git.sr.ht/~kennylevinsen/seatd/archive/0.9.3.tar.gz",
+            .hash = "N-V-__8AABzIAgBtVJw8-iXNBZm8lhH1cu7_MxjipGv7yt0D",
+        },
+    },
+    .minimum_zig_version = "0.16.0-dev.2653+784e89fd4",
+    .paths = .{ "build.zig", "build.zig.zon", "README.md", "LICENSE" },
+    .fingerprint = 0x16b6a2ac2bd1b7a,
+}
